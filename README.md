@@ -17,7 +17,7 @@ Live versions (when they exist) are linked from each project's README. This repo
 <!-- PROJECT_TABLE_START -->
 | Project | Difficulty | Category | Status |
 |---|---|---|---|
-| [Tic-Tac-Toe](projects/tic-tac-toe) | beginner | game | ⏳ planned |
+| [Bin2Dec](projects/Bin2Dec) | beginner | calculator | 🚧 in-progress |
 <!-- PROJECT_TABLE_END -->
 
 ## Adding a new project
