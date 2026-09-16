@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 """
-Regenerates the project table in the root README.md by reading the YAML
-frontmatter of every projects/*/README.md file.
+Regenerates the project table in the root README.md
 
 Usage:
     python scripts/build_index.py
@@ -30,7 +28,6 @@ def parse_frontmatter(text: str) -> dict:
         key, _, value = line.partition(":")
         key = key.strip()
         value = value.strip().strip('"').strip("'")
-        # strip inline comments like `status: "planned"      # ...`
         value = value.split("#")[0].strip().strip('"').strip("'")
         fm[key] = value
     return fm
