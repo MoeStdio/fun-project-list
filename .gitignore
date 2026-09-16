@@ -1,0 +1,24 @@
+# Java
+*.class
+target/
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Godot
+.godot/
+export.cfg
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
